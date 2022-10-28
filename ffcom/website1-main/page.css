@@ -26,20 +26,49 @@ body, html {
 
 
 
-  
+  .player:hover{
+    transform: scale(1.05);
+  }
+
+  .tornament:hover{
+    transform: scale(1.05);
+  }
+
+  .news:hover{
+    transform: scale(1.05);
+  }
 
   .player{
-    width: 100px;
+    border-radius: 0.51rem;
+    position: relative;
+    color: aliceblue;
+    flex: 1;
+    z-index: 1;
+    text-decoration: none;
+    height: 100%;
+    transition: transform 0.2s ease;
+    
+    width: 200px;
     text-align: center;
-    border: 2px solid rgb(0 0 0 / 100%);
+    /*border: 3px solid rgb(0 0 0 / 100%);*/
     box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.884);
     margin-right: 40px;
     }
   .container{
+    
       padding: 5px;
     }
   .tornament{
-    width: 100px;
+    border-radius: 0.51rem;
+    position: relative;
+    color: aliceblue;
+    flex: 1;
+    z-index: 1;
+    text-decoration: none;
+    height: 100%;
+    transition: transform 0.2s ease;
+
+    width: 200px;
     text-align: center;
     border: 2px solid rgb(0 0 0 / 100%);
     box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.884);
@@ -47,7 +76,16 @@ body, html {
     }
 
 .news{
-  width: 100px;
+  border-radius: 0.51rem;
+  position: relative;
+  color: aliceblue;
+  flex: 1;
+  z-index: 1;
+  text-decoration: none;
+  height: 100%;
+  transition: transform 0.2s ease;
+
+  width: 200px;
   text-align: center;
   border: 2px solid rgb(0 0 0 / 100%);
     box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.884);
