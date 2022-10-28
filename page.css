@@ -24,48 +24,51 @@ body, html {
     
   }
 
-  .search-bar{
-    width: 60%;
-    background: rgba(255, 255, 255, 0.2);
-    display: flex;
-    align-items: center;
-    border-radius: 60px;
-    padding: 10px 20px;
+
+
+  .player:hover{
+    transform: scale(1.05);
   }
 
-  .search-bar input{
-    background: transparent;
-    width: 20%;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 24px 20px;
-    font-size: 20px;
-    color: #cac7ff;
+  .tornament:hover{
+    transform: scale(1.05);
   }
 
-  .search-bar button{
-    border: 0;
-    border-radius: 50%;
-    width: 10%;
-    height: 50%;
-    background: transparent;
-    cursor: pointer;
-    
+  .news:hover{
+    transform: scale(1.05);
   }
 
   .player{
-    width: 100px;
+    border-radius: 0.51rem;
+    position: relative;
+    color: aliceblue;
+    flex: 1;
+    z-index: 1;
+    text-decoration: none;
+    height: 100%;
+    transition: transform 0.2s ease;
+    
+    width: 200px;
     text-align: center;
-    border: 2px solid rgb(0 0 0 / 100%);
+    /*border: 3px solid rgb(0 0 0 / 100%);*/
     box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.884);
     margin-right: 40px;
     }
   .container{
+    
       padding: 5px;
     }
   .tornament{
-    width: 100px;
+    border-radius: 0.51rem;
+    position: relative;
+    color: aliceblue;
+    flex: 1;
+    z-index: 1;
+    text-decoration: none;
+    height: 100%;
+    transition: transform 0.2s ease;
+
+    width: 200px;
     text-align: center;
     border: 2px solid rgb(0 0 0 / 100%);
     box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.884);
@@ -73,7 +76,16 @@ body, html {
     }
 
 .news{
-  width: 100px;
+  border-radius: 0.51rem;
+  position: relative;
+  color: aliceblue;
+  flex: 1;
+  z-index: 1;
+  text-decoration: none;
+  height: 100%;
+  transition: transform 0.2s ease;
+
+  width: 200px;
   text-align: center;
   border: 2px solid rgb(0 0 0 / 100%);
     box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.884);
